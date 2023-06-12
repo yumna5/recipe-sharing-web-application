@@ -1,0 +1,162 @@
+.RecipePage__header {
+  width: 100%;
+  display: grid;
+  justify-items: end;
+  grid-template-columns: 40% 60%;
+}
+
+.RecipePage__bannerContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 6rem;
+  padding-left: max(3rem, calc(3rem + (100vw - 1440px) / 2));
+}
+
+.RecipePage__bannerImgWrapper {
+  width: 100%;
+}
+
+.RecipePage__bannerImg {
+  width: 100%;
+  border-bottom-left-radius: 2rem;
+}
+
+.RecipePage__title {
+  font-size: 3rem;
+  font-family: "Quattrocento";
+  color: black;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.RecipePage__subtitle {
+  font-size: 1rem;
+  font-family: "Quattrocento Sans";
+  color: black;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
+}
+
+.RecipePage__description {
+  font-size: 1.5rem;
+  font-family: "Quattrocento Sans";
+  color: black;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.RecipePage__buttonsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.RecipePage__button {
+  margin-left: 1.5rem;
+}
+
+.RecipePage__main {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2rem 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  grid-gap: 3rem;
+  margin: 0 auto;
+}
+
+.RecipePage__leftBar {
+  width: 100%;
+  height: fit-content;
+  min-height: calc(100vh - 4rem);
+  background-color: #c8e6c9;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+}
+
+.RecipePage__sectionTitle {
+  font-size: 2.25rem;
+  font-family: "Quattrocento";
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.RecipePage__sectionTitle--lessMargin {
+  margin-bottom: 1rem;
+}
+
+.RecipePage__mainContent {
+  padding: 3rem;
+}
+
+.RecipePage__instructions {
+  max-width: 700px;
+  font-size: 1.25rem;
+  padding-left: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.RecipePage__instruction {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.RecipePage__instruction p {
+  margin-left: 1rem;
+}
+
+.RecipePage__servingInfo {
+  margin-bottom: 2rem;
+}
+
+.RecipePage__ingredientsList {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+
+.RecipePage__ingredient {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.RecipePage__ingredient:last-of-type {
+  margin-bottom: 2rem;
+}
+
+.RecipePage__ingredientInput {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 0.5rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  border: 1px solid black;
+}
+
+.RecipePage__ingredientInput:checked {
+  background: black;
+}
+
+.RecipePage__materials {
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.RecipePage__material {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.RecipePage__material p {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,58 @@
+.FollowInfoModal__background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 800;
+    overflow:hidden;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+  
+.FollowInfoModal__box {
+  width: 500px;
+  height: 80vh;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: fixed;
+  z-index: 1000;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: fit-content(100px) 1fr fit-content(100px);
+  grid-gap: 2rem;
+}
+
+.FollowInfoModal__header {
+  height: fit-content;
+  width: 100%;
+}
+
+.FollowInfoModal__header h2 {
+  font-size: 1.5rem;
+}
+
+.FollowInfoModal__buttonWrapper {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.FollowInfoModal__buttonWrapper button {
+  margin-right: 1rem;
+}
+
+.FollowInfoModal__list {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+}
+
+.FollowerModalButtonActive {
+  font-weight: 600;
+}
+  

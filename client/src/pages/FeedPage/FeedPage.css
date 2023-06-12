@@ -1,0 +1,20 @@
+.FeedPage__main {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 3rem;
+  margin: 8rem auto 0;
+}
+
+.FeedPage__title {
+  font-size: 2.25rem;
+  font-weight: 400;
+  font-family: "Quattrocento";
+  margin-bottom: 3rem;
+}
+
+.FeedPage__recipeGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}

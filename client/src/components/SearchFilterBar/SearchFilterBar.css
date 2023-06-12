@@ -1,0 +1,82 @@
+.SearchFilterBar {
+  width: 100%;
+  max-width: 250px;
+  height: calc(100vh - 6.5rem);
+  background-color: #c8e6c9;
+  position: sticky;
+  margin-top: 1rem;
+  top: 5.5rem;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+}
+
+.SearchFilterBar__title {
+  font-family: "Quattrocento";
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.SearchFilterBar__groups {
+  overflow-y: auto;
+  margin-bottom: 2rem;
+}
+
+.SearchFilterBar__group {
+  margin-bottom: 1.5rem;
+}
+
+.SearchFilterBar__group__title {
+  font-family: "Quattrocento Sans";
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.SearchFilterBar__group__options {
+  display: flex;
+  flex-direction: column;
+}
+
+.SearchFilterBar__group__optionLabel {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.75rem;
+  cursor: pointer;
+}
+
+.SearchFilterBar__group__optionInput {
+  appearance: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 0.5rem;
+  width: 0.875rem;
+  height: 0.875rem;
+  border: 1px solid black;
+}
+
+.SearchFilterBar__group__optionInput:checked {
+  background: black;
+}
+
+.SearchFilterBar__group__button {
+  margin-top: 0.25rem;
+}
+
+.SearchFilterBar__controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  background: #c8e6c9;
+  width: 100%;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1.5rem;
+}

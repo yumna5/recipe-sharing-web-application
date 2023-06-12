@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Quattrocento Sans";
+  src: url("../fonts/QuattrocentoSans-BoldItalic.woff2") format("woff2"),
+    url("../fonts/QuattrocentoSans-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quattrocento Sans";
+  src: url("../fonts/QuattrocentoSans-Bold.woff2") format("woff2"),
+    url("../fonts/QuattrocentoSans-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quattrocento Sans";
+  src: url("../fonts/QuattrocentoSans-Italic.woff2") format("woff2"),
+    url("../fonts/QuattrocentoSans-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quattrocento Sans";
+  src: url("../fonts/QuattrocentoSans.woff2") format("woff2"),
+    url("../fonts/QuattrocentoSans.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quattrocento";
+  src: url("../fonts/Quattrocento-Bold.woff2") format("woff2"),
+    url("../fonts/Quattrocento-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Quattrocento";
+  src: url("../fonts/Quattrocento.woff2") format("woff2"),
+    url("../fonts/Quattrocento.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

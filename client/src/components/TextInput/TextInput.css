@@ -1,0 +1,52 @@
+.TextInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.TextInput__label {
+  font-size: 1rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 400;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.TextInput__input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 400;
+  color: black;
+}
+
+.TextInput__input::placeholder {
+  color: #bdbdbd;
+}
+
+.TextInput__input--large {
+  font-size: 1.5rem;
+}
+
+.TextInput__input--isTextArea {
+  height: 100px;
+  resize: none;
+}
+
+.TextInput__input--yellow {
+  border: 1px solid #ffc300;
+}
+
+.TextInput__input--green {
+  border: 1px solid #27ae60;
+}
+
+.TextInput__error {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #eb5757;
+  font-family: "Quattrocento Sans", sans-serif;
+  font-weight: 400;
+}

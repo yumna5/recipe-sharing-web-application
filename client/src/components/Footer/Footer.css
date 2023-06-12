@@ -1,0 +1,26 @@
+.Footer {
+  width: 100%;
+  background-color: #fff8e1;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.Footer__wrapper {
+  width: 100%;
+  max-width: 1440px;
+  padding: 4rem 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.Footer__logo {
+  font-size: 2.25rem;
+  color: black;
+  font-family: "Quattrocento";
+  margin-bottom: 2rem;
+}
+
+.Footer__copyright {
+  font-size: 0.875rem;
+}

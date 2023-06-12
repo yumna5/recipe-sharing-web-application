@@ -1,0 +1,190 @@
+.RecipeEditor {
+  position: relative;
+  margin-bottom: 7rem;
+}
+
+.RecipeEditor__bottomBar {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background: #fff8e1;
+  display: grid;
+  place-items: center;
+  border-top: 1px solid #ffc300;
+}
+
+.RecipeEditor__bottomBarWrapper {
+  width: 100%;
+  max-width: 1440px;
+  padding: 1.5rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.RecipeEditor__bottomBarHeading {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+.RecipeEditor__header {
+  width: 100%;
+  display: grid;
+  justify-items: end;
+  grid-template-columns: 40% 60%;
+}
+
+.RecipeEditor__bannerContent {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content;
+  align-content: center;
+  grid-gap: 1.25rem;
+  padding: 3rem 6rem;
+  padding-left: max(3rem, calc(3rem + (100vw - 1440px) / 2));
+  padding-top: 100px;
+}
+
+.RecipeEditor__bannerInput {
+  margin-top: 1.25rem;
+}
+
+.RecipeEditor__bannerImgWrapper {
+  width: 100%;
+}
+
+.RecipeEditor__bannerImgLabel {
+  width: 100%;
+  height: 750px;
+  border-bottom-left-radius: 2rem;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.RecipeEditor__pencilIcon {
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 72px;
+}
+
+.RecipeEditor__bannerImgInput {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.RecipeEditor__main {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2rem 3rem 0 1rem;
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  grid-gap: 3rem;
+  margin: 0 auto;
+}
+
+.RecipeEditor__leftBar {
+  width: 100%;
+  height: fit-content;
+  min-height: calc(100vh - 4rem);
+  background-color: #c8e6c9;
+  border-radius: 1rem;
+  padding: 3rem 3rem 3rem 2rem;
+}
+
+.RecipeEditor__sectionTitle {
+  font-size: 2.25rem;
+  font-family: "Quattrocento";
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.RecipeEditor__sectionTitle--lessMargin {
+  margin-bottom: 1rem;
+}
+
+.RecipeEditor__sectionTitle--topMargin {
+  margin-top: 3rem;
+}
+
+.RecipeEditor__mainContent {
+  padding: 3rem;
+}
+
+.RecipeEditor__servingInput {
+  margin-bottom: 2rem;
+}
+
+.RecipeEditor__inputList {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content;
+  grid-gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.RecipeEditor__inputWrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.RecipeEditor__cancelInput {
+  flex-shrink: 0;
+  width: 1.25rem;
+  right: -1.5rem;
+  position: absolute;
+}
+
+.RecipeEditor__cancelInput--withLabel {
+  right: 0;
+  top: 0;
+  height: fit-content;
+}
+
+.RecipeEditor__cancelInput--top {
+  right: -1.5rem;
+  top: 0;
+  height: fit-content;
+}
+
+.RecipeEditor__multiSelectGroup {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: min-content;
+  grid-gap: 0.5rem;
+}
+
+.RecipeEditor__multiSelectGroup--largerGap {
+  grid-gap: 1.5rem;
+}
+
+.RecipeEditor__multiSelectButton {
+  text-decoration: underline;
+  color: grey;
+}
+
+.RecipeEditor__bottomBarFormWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.RecipeEditor__error {
+  color: red;
+  margin-right: 1.5rem;
+}
+
+.RecipeEditor__bottomBarButton {
+  margin-left: 1.5rem;
+}

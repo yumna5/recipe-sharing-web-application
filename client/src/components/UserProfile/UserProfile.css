@@ -1,0 +1,78 @@
+.UserProfile {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserProfile__data {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.UserProfile__avatar {
+  width: 200px;
+  height: 200px;
+  background: #2d9cdb;
+  border-radius: 50%;
+  margin-right: 3.5rem;
+}
+
+.UserProfile__info {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.UserProfile__name {
+  font-size: 2.25rem;
+  margin-right: 0.5rem;
+  font-weight: 400;
+}
+
+.UserProfile__verified {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.UserProfile__nameWrapper {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.UserProfile__username {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.UserProfile__followData {
+  display: flex;
+  margin-bottom: 0.75rem;
+}
+
+.UserProfile__followerData {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.UserProfile__followingData {
+  display: flex;
+}
+
+.UserProfile__label {
+  color: #828282;
+  margin-left: 0.25rem;
+}
+
+.UserProfile__cuisine {
+  margin-bottom: 0.75rem;
+}
+
+.UserProfile__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.UserProfile__buttons button,
+.UserProfile__buttons a {
+  margin-right: 1rem;
+}

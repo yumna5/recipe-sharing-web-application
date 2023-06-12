@@ -1,0 +1,70 @@
+.Navbar {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: #fff8e1;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #ffc300;
+}
+
+.Navbar__wrapper {
+  width: 100%;
+  max-width: 1440px;
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Navbar__logoSearchWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.Navbar__logo {
+  font-size: 2.25rem;
+  color: black;
+  font-family: "Quattrocento";
+  margin-right: 3rem;
+}
+
+.Navbar__rightWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Navbar__rightElement {
+  margin-left: 1.5rem;
+}
+
+.Navbar__cart {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.Navbar__cartButton {
+  margin-left: 1.5rem;
+}
+
+.Navbar__profileLink {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-left: 1.5rem;
+}
+
+.Navbar__profileLink--blue {
+  background-color: #2d9cdb;
+}
+
+.Navbar__profileLink--green {
+  background-color: #1c9b52;
+}
+
+.Navbar__profileLink--orange {
+  background-color: #f2994a;
+}

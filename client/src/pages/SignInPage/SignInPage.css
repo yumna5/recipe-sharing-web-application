@@ -1,0 +1,58 @@
+.SignInPage {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff8e1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.SignInPage__logo {
+  font-size: 2.25rem;
+  color: black;
+  font-family: "Quattrocento";
+  margin: 3rem 0;
+}
+
+.SignInPage__container {
+  width: 500px;
+  height: fit-content;
+  padding: 3rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.SignInPage__header {
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.SignInPage__form {
+  margin-bottom: 2rem;
+}
+
+.SignInPage__input {
+  margin-bottom: 1.5rem;
+}
+
+.SignInPage__button {
+  margin-top: 0.5rem;
+}
+
+.SignInPage__text {
+  margin-bottom: 1rem;
+}
+
+.SignInPage__link {
+  color: black;
+  text-decoration: underline;
+}
+
+.SignInPage__error {
+  margin-bottom: 1.5rem;
+  color: red;
+}

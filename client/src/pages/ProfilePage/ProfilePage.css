@@ -1,0 +1,24 @@
+.ProfilePage {
+  width: 100%;
+  max-width: 1440px;
+  padding: 0 3rem;
+  margin: 8rem auto 0;
+}
+
+.ProfilePage__section {
+  margin-top: 4rem;
+}
+
+.ProfilePage__sectionTitle {
+  font-family: "Quattrocento";
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+  font-weight: 400;
+}
+
+.ProfilePage__recipeGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3rem;
+}
